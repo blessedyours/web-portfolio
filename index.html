@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portafolio de desarrollo web para negocios locales, restaurantes y tiendas online.">
+  <meta name="theme-color" content="#0e0e0f">
+  <title>Web Studio — Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio">WEB/STUDIO</a>
+      <nav class="desktop-nav">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#precios">Precios</a>
+        <a href="#proceso">Proceso</a>
+      </nav>
+      <a class="nav-cta" href="#contacto">Cotizar proyecto</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#precios">Precios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#contacto">Cotizar proyecto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">DESARROLLO WEB PARA NEGOCIOS</p>
+          <h1>Sitios que se ven bien<br>y ayudan a vender.</h1>
+          <p class="lead">Diseño y desarrollo páginas modernas, rápidas y adaptadas a celular para negocios locales, restaurantes, marcas y tiendas.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-secondary" href="#contacto">Pedir cotización</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>3</strong><span>Demos públicas</span></div>
+            <div><strong>100%</strong><span>Responsive</span></div>
+            <div><strong>HTML/CSS/JS</strong><span>Entrega limpia</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <span class="card-label">DISPONIBLE PARA PROYECTOS</span>
+          <div class="mock-window">
+            <div class="mock-top"><span></span><span></span><span></span></div>
+            <div class="mock-body">
+              <div class="mock-line lg"></div>
+              <div class="mock-line md"></div>
+              <div class="mock-grid">
+                <div></div><div></div><div></div>
+              </div>
+            </div>
+          </div>
+          <p>Landing pages, sitios de negocio, menús digitales, catálogos y tiendas de demostración.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <div>DISEÑO RESPONSIVE · CARGA RÁPIDA · WHATSAPP · CATÁLOGOS · MENÚS DIGITALES · LANDING PAGES ·</div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">PORTAFOLIO</p>
+            <h2>Trabajo que ya puedes abrir y probar.</h2>
+          </div>
+          <p>Estos proyectos son demostraciones públicas que muestran distintos estilos y tipos de negocio.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview barber">
+              <div class="preview-overlay">
+                <span>01</span>
+                <a target="_blank" rel="noopener" href="https://blessedyours.github.io/northside-studio-demo/">Abrir demo ↗</a>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><p>BARBERÍA / SERVICIOS</p><h3>Northside Studio</h3></div>
+              <span>HTML · CSS · JS</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview restaurant">
+              <div class="preview-overlay">
+                <span>02</span>
+                <a target="_blank" rel="noopener" href="https://blessedyours.github.io/restaurant-web-demo/">Abrir demo ↗</a>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><p>RESTAURANTE</p><h3>Luma Cocina</h3></div>
+              <span>Menú · Reservas · Galería</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview store">
+              <div class="preview-overlay">
+                <span>03</span>
+                <a target="_blank" rel="noopener" href="https://blessedyours.github.io/store-web-demo/">Abrir demo ↗</a>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><p>E-COMMERCE / CATÁLOGO</p><h3>NOIR Supply</h3></div>
+              <span>Filtros · Búsqueda · Carrito</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="container">
+        <div class="section-head light-head">
+          <div>
+            <p class="eyebrow light">SERVICIOS</p>
+            <h2>Lo que puedo construir.</h2>
+          </div>
+          <p>Sitios enfocados en presentar mejor un negocio y facilitar que los clientes contacten, reserven o conozcan sus productos.</p>
+        </div>
+        <div class="service-grid">
+          <article><span>01</span><h3>Landing page</h3><p>Una página clara y moderna para presentar un negocio, servicio o producto.</p></article>
+          <article><span>02</span><h3>Sitio para negocio</h3><p>Servicios, precios, galería, ubicación, horarios, contacto y WhatsApp.</p></article>
+          <article><span>03</span><h3>Restaurante</h3><p>Menú digital, categorías, platillos, reservaciones y contacto.</p></article>
+          <article><span>04</span><h3>Catálogo / tienda demo</h3><p>Productos, filtros, buscador y carrito visual para mostrar una experiencia de compra.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="precios">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">PRECIOS INICIALES</p>
+            <h2>Paquetes simples para empezar.</h2>
+          </div>
+          <p>Precios base orientativos. Cada proyecto puede cambiar según contenido, funciones y número de secciones.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <p class="price-kicker">BÁSICO</p>
+            <h3>Landing</h3>
+            <strong>Desde $800 MXN</strong>
+            <ul>
+              <li>1 página</li>
+              <li>Diseño responsive</li>
+              <li>Hasta 5 secciones</li>
+              <li>Botón de WhatsApp</li>
+              <li>Entrega lista para publicar</li>
+            </ul>
+            <a href="#contacto">Cotizar →</a>
+          </article>
+
+          <article class="price-card featured">
+            <div class="recommended">MÁS COMPLETO</div>
+            <p class="price-kicker">NEGOCIO</p>
+            <h3>Sitio comercial</h3>
+            <strong>Desde $1,200 MXN</strong>
+            <ul>
+              <li>Más secciones y contenido</li>
+              <li>Galería / menú / catálogo</li>
+              <li>Contacto y horarios</li>
+              <li>Adaptación móvil</li>
+              <li>Personalización visual</li>
+            </ul>
+            <a href="#contacto">Cotizar →</a>
+          </article>
+
+          <article class="price-card">
+            <p class="price-kicker">PERSONALIZADO</p>
+            <h3>Proyecto especial</h3>
+            <strong>Cotización</strong>
+            <ul>
+              <li>Funciones adicionales</li>
+              <li>Más páginas</li>
+              <li>Diseño a medida</li>
+              <li>Integraciones simples</li>
+              <li>Presupuesto según alcance</li>
+            </ul>
+            <a href="#contacto">Hablar del proyecto →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="proceso">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">PROCESO</p>
+            <h2>Sin hacerlo complicado.</h2>
+          </div>
+        </div>
+        <div class="process-grid">
+          <div><span>01</span><h3>Me cuentas tu idea</h3><p>Qué negocio tienes, qué quieres mostrar y qué estilo buscas.</p></div>
+          <div><span>02</span><h3>Definimos alcance</h3><p>Secciones, contenido, precio y lo que incluirá la página.</p></div>
+          <div><span>03</span><h3>Construyo la web</h3><p>Desarrollo el sitio y te muestro una versión para revisar.</p></div>
+          <div><span>04</span><h3>Publicamos</h3><p>Se hacen ajustes finales y queda lista para compartir.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow light">¿TIENES UN NEGOCIO?</p>
+          <h2>Hagamos una página que sí quieras presumir.</h2>
+          <p>Cuéntame qué necesitas y te doy una propuesta simple con precio y alcance.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn btn-light" href="https://github.com/blessedyours" target="_blank" rel="noopener">Ver GitHub</a>
+          <a class="btn btn-outline" href="mailto:contacto@ejemplo.com">Enviar correo</a>
+          <small>El correo es de demostración y debe reemplazarse antes de usar el portafolio con clientes.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Web Studio</span>
+      <span>Desarrollo web para negocios</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
